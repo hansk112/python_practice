@@ -1,0 +1,32 @@
+import nltk
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+from collections import Counter
+
+# Download the stopwords from nltk
+nltk.download('punkt')
+nltk.download('stopwords')
+
+def generate_seo_keywords(text):
+    # Tokenize the text
+    words = word_tokenize(text.lower())
+    
+    # Remove stopwords and non-alphabetic tokens
+    stop_words = set(stopwords.words('english'))
+    filtered_words = [word for word in words if word.isalpha() and word not in stop_words]
+    
+    # Count word frequencies
+    word_freq = Counter(filtered_words)
+    
+    # Get the most common words
+    common_words = word_freq.most_common(10)
+    
+    # Extract keywords
+    keywords = [word for word, freq in common_words]
+    
+    return keywords
+
+# Example usage
+text = "Your input text goes here. This text will be processed to generate SEO keywords."
+keywords = generate_seo_keywords(text)
+print("SEO Keywords:", keywords)
