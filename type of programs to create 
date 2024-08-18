@@ -1,0 +1,32 @@
+Sent by Copilot:
+Sure! Here are some Python questions to help you learn about data types:
+
+Basic Data Types:
+What are the basic data types in Python?
+How do you check the type of a variable in Python?
+Write a Python program to convert an integer to a float and vice versa.
+Strings:
+How do you concatenate two strings in Python?
+What is the difference between str and repr functions?
+Write a Python program to count the number of vowels in a given string.
+Lists:
+How do you create a list in Python?
+What are the different ways to add elements to a list?
+Write a Python program to find the largest and smallest elements in a list.
+Tuples:
+What is the difference between a list and a tuple?
+How do you access elements in a tuple?
+Write a Python program to find the index of an element in a tuple.
+Dictionaries:
+How do you create a dictionary in Python?
+What are the different ways to access values in a dictionary?
+Write a Python program to merge two dictionaries.
+Sets:
+What is a set in Python and how is it different from a list?
+How do you add and remove elements from a set?
+Write a Python program to find the union and intersection of two sets.
+Type Conversion:
+What is type casting in Python?
+How do you convert a string to an integer in Python?
+Write a Python program to convert a list of strings to a list of integers.
+Feel free to ask if you need more questions or explanations on any of these topics!
